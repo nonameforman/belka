@@ -32,7 +32,7 @@ if ($("#main-body").length > 0) {
       pagination: false,
       start: 2,
       updateOnMove: true,
-      speed: 0,
+      speed: 1000,
     });
 
     let sliderSectionTop = new Splide(".section-top__splide", {
