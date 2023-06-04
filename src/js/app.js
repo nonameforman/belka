@@ -26,7 +26,7 @@ if ($("#main-body").length > 0) {
       },
       type: "loop",
       focus: "center",
-      perPage: 3,
+      perPage: 1,
       fixedWidth: 370,
       gap: 30,
       pagination: false,
