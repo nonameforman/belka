@@ -1,0 +1,27 @@
+.format__el {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 469px;
+
+  /* height: 508px; */
+  padding: 40px 73px;
+
+  background: #fff;
+  filter: drop-shadow(0 12px 27px rgb(42 89 158 / 15%));
+  border-radius: 20px;
+}
+
+@media (max-width: 1021px) {
+  .format__el {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 781px) {
+  .format__el {
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
+}

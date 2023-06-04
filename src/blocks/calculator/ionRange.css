@@ -1,0 +1,68 @@
+.irs--flat .irs-line {
+  height: 10px;
+  background-color: #faebd9;
+  border-radius: 5px;
+}
+
+.calculator .irs--flat .irs-bar {
+  top: 26px;
+  height: 8px;
+  background: #885194;
+  border-radius: 5px;
+}
+
+.calculator .irs--flat .irs-handle {
+  position: relative;
+  top: 7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25px;
+  height: 25px;
+
+  background: #885194;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 2.93px 18.02px #885194, 0 1.62px 3.51px rgb(250 235 217 / 3.5%);
+}
+
+.calculator .irs--flat .irs-handle > i:first-child {
+  display: none;
+}
+
+.irs--flat .irs-grid-pol {
+  display: none;
+}
+
+.irs--flat .irs-grid-text {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: #717171;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.irs--flat.irs-with-grid {
+  height: 90px;
+  margin-top: 0;
+}
+
+.irs--flat .irs-single {
+  display: none;
+}
+
+@media (max-width: 1021px) {
+  .irs--flat.irs-with-grid {
+    height: 75px;
+  }
+}
+
+@media (max-width: 621px) {
+  .irs--flat .irs-grid-text {
+    font-size: 16px;
+  }
+}

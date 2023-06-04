@@ -1,0 +1,30 @@
+.start__el-text {
+  max-width: 270px;
+
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 120%;
+  color: #412816;
+}
+
+@media (max-width: 1221px) {
+  .start__el-text {
+    max-width: 210px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .start__el-text {
+    max-width: 165px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 821px) {
+  .start__el-text {
+    max-width: 210px;
+    font-size: 16px;
+  }
+}

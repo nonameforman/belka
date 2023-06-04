@@ -1,0 +1,58 @@
+<section class="questions">
+  <div class="container questions__container">
+    <h2 class="questions__title">Остались вопросы? Задайте их мне напрямую!</h2>
+    <div class="questions__fgp-block">
+      <div class="fgp questions__fgp">
+        <form class="fgp__form">
+          <textarea
+            name="question"
+            type="text"
+            id="textarea"
+            class="input input--questions"
+            placeholder="Текст вопроса"
+          ></textarea>
+          <input
+            class="input input--user"
+            type="text"
+            name="name"
+            placeholder="Имя"
+          />
+          <input
+            class="input input--phone"
+            type="tel"
+            name="phone"
+            placeholder="Телефон"
+          />
+
+          <!-- Тип формы  -->
+          <input type="text" name="section-name" value="Открытая" hidden />
+          <!-- Текст на кнопке в попапе  -->
+          <input
+            type="text"
+            name="form-btn-text"
+            value="Задать вопрос"
+            hidden
+          />
+          <!-- Заголовок в секции  -->
+          <input
+            type="text"
+            name="section-name-text"
+            value="Остались вопросы?"
+            hidden
+          />
+          <!-- Заголовок в попапе/форме  -->
+          <input
+            type="text"
+            name="form-name-text"
+            value="Задайте их мне напрямую!"
+            hidden
+          />
+
+          <button class="button questions__fgp-button" type="submit">
+            Задать вопрос
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

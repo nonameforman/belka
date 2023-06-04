@@ -1,0 +1,61 @@
+.steps__el-field {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 270px;
+  height: 240px;
+  padding: 45px 0 0 30px;
+
+  background: #fff;
+  border-radius: 10px;
+}
+
+.steps__el-field_8 {
+  height: 320px;
+  padding: 141px 0 0 30px;
+  background: #885194;
+}
+
+@media (max-width: 1221px) {
+  .steps__el-field {
+    width: 217px;
+    height: 192px;
+    padding: 36px 0 0 20px;
+  }
+
+  .steps__el-field_8 {
+    height: 256px;
+    padding: 112px 0 0 20px;
+    background: #885194;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__el-field {
+    width: 177.5px;
+    height: 160px;
+    padding: 20px 0 0 10px;
+  }
+
+  .steps__el-field_8 {
+    height: 208px;
+    padding: 85px 0 0 10px;
+    background: #885194;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__el-field {
+    width: 250px;
+    height: 222px;
+    padding: 40px 0 0 25px;
+  }
+
+  .steps__el-field_8 {
+    height: 296px;
+    padding: 130px 0 0 25px;
+    background: #885194;
+  }
+}

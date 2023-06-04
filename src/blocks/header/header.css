@@ -1,0 +1,15 @@
+.header {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+
+  width: 100%;
+  padding-top: 62px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 821px) {
+  .header {
+    padding-top: 30px;
+  }
+}

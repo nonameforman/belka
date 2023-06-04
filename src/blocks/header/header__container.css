@@ -1,0 +1,26 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@media (max-width: 1021px) {
+  .header__container {
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 821px) {
+  .header__container {
+    max-width: 580px;
+  }
+}
+
+@media (max-width: 621px) {
+  .header__container {
+    max-width: 300px;
+  }
+}

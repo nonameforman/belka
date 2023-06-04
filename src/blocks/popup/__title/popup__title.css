@@ -1,0 +1,43 @@
+#popup-title {
+  width: 100%;
+}
+
+.popup__title {
+  display: block;
+
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 34px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  text-align: center;
+}
+
+.popup__title-main {
+  display: block;
+
+  margin-bottom: 9px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 601px) {
+  .popup__title {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 20px;
+
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .popup__title-main {
+    font-size: 20px;
+  }
+}

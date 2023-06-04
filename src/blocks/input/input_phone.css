@@ -1,0 +1,14 @@
+.input--phone {
+  padding-left: 76px;
+  background-image: url("@images/input/icon_phone.svg");
+  background-repeat: no-repeat;
+  background-position: 42px center;
+}
+
+@media (max-width: 601px) {
+  .input--phone {
+    /* padding-left: 45px;
+    background-position: 8px center;
+    background-size: 30px 30px; */
+  }
+}

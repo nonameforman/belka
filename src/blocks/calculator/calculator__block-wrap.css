@@ -1,0 +1,29 @@
+.calculator__block-wrap {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  margin-bottom: 80px;
+  padding-top: 83px;
+  padding-bottom: 45px;
+
+  background: #ffd76e;
+  background-image: url("@images/calculator/calculator__block-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+@media (max-width: 1021px) {
+  .calculator__block-wrap {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 601px) {
+  .calculator__block-wrap {
+    margin-bottom: 30px;
+    padding: 20px 10px;
+  }
+}

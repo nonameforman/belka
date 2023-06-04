@@ -1,0 +1,14 @@
+.input--user {
+  padding-left: 72px;
+  background-image: url("@images/input/icon_user.svg");
+  background-repeat: no-repeat;
+  background-position: 46px center;
+}
+
+/* @media (max-width: 601px) {
+  .input--user {
+    padding-left: 45px;
+    background-position: 8px center;
+    background-size: 30px 30px;
+  }
+} */

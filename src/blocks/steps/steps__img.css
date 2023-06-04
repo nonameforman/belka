@@ -1,0 +1,26 @@
+.steps__img {
+  position: absolute;
+  z-index: 5;
+  top: -15px;
+  left: 25px;
+
+  width: 129px;
+}
+
+@media (max-width: 1221px) {
+  .steps__img {
+    width: 103px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__img {
+    width: 85px;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__img {
+    width: 120px;
+  }
+}

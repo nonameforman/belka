@@ -1,0 +1,22 @@
+.popup__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.popup__form input {
+  max-width: 100%;
+  color: black;
+}
+
+@media (max-width: 601px) {
+  .popup__form input {
+    height: 40px;
+  }
+}

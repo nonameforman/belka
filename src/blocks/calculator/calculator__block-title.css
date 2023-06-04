@@ -1,0 +1,15 @@
+.calculator__block-title {
+  max-width: 417px;
+
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: #8d7e73;
+}
+
+@media (max-width: 621px) {
+  .calculator__block-title {
+    font-size: 16px;
+  }
+}

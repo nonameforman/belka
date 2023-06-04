@@ -1,0 +1,16 @@
+.steps__button {
+  width: 244px;
+  margin: 0 auto;
+}
+
+@media (max-width: 821px) {
+  .steps__button {
+    height: 50px;
+  }
+}
+
+@media (max-width: 621px) {
+  .steps__button {
+    width: 300px;
+  }
+}

@@ -1,0 +1,6 @@
+.bottom-block {
+  background-image: url("@images/bottom-block/bottom-block__bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+}

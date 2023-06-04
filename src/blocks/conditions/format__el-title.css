@@ -1,0 +1,14 @@
+.format__el-title {
+  margin-bottom: 36px;
+
+  font-weight: 700;
+  color: #4090f7;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 781px) {
+  .format__el-title {
+    margin-bottom: 15px;
+  }
+}

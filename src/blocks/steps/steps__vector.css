@@ -1,0 +1,27 @@
+.steps__vector {
+  position: absolute;
+  bottom: 43%;
+  left: 13.5%;
+}
+
+@media (max-width: 1221px) {
+  .steps__vector {
+    bottom: 44%;
+    width: 784px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__vector {
+    bottom: 43%;
+    left: 14.8%;
+    width: 605px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__vector {
+    display: none;
+  }
+}

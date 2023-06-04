@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./pages/style.min.css" />
+    <title>Cпасибо, Ваша заявка принята 👍</title>
+  </head>
+  <!-- prettier-ignore -->
+  <body id="thanks1-body">
+    @@include('./html/header.html', {page: "thanks"})
+    <main>
+      @@include('./html/thanks.html')
+    </main>
+    @@include('./html/footer.html', {page: "thanks"})
+    @@include('./html/popup__policy.html') 
+
+    <script src="./js/libraries/jquery.min.js"></script>
+    <script src="./js/jsThanks.min.js"></script>
+    @@include('./html/standartscript.html')
+
+  </body>
+  <!-- prettier-no-ignore  -->
+</html>

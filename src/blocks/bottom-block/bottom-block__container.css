@@ -1,0 +1,10 @@
+.bottom-block__container {
+  padding-top: 100px;
+  padding-bottom: 42px;
+}
+
+/* @media (max-width: 1021px) {
+  .bottom-block__container {
+    padding-bottom: 100px;
+  }
+} */

@@ -1,0 +1,28 @@
+.steps__list {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 320px);
+  gap: 30px;
+}
+
+@media (max-width: 1221px) {
+  .steps__list {
+    grid-template-rows: repeat(2, 256px);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__list {
+    grid-template-rows: repeat(2, 208px);
+    gap: 20px 10px;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__list {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 296px;
+    gap: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.section-top {
+  position: relative;
+  z-index: 3;
+
+  background-image: url("@images/section-top/section-top__bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+}

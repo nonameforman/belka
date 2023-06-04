@@ -1,0 +1,36 @@
+.steps__el-circle {
+  position: absolute;
+  top: 0;
+  left: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  height: 120px;
+
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 1221px) {
+  .steps__el-circle {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__el-circle {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__el-circle {
+    width: 111px;
+    height: 111px;
+  }
+}

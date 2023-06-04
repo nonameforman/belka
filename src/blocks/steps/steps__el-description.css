@@ -1,0 +1,33 @@
+.steps__el-description {
+  max-width: 221px;
+
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 110%;
+  color: #412816;
+}
+
+.steps__el-description_8 {
+  color: #fff;
+}
+
+@media (max-width: 1221px) {
+  .steps__el-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__el-description {
+    max-width: 150px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__el-description {
+    max-width: 200px;
+    font-size: 16px;
+  }
+}

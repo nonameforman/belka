@@ -1,0 +1,41 @@
+.information__fgp .fgp__form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.information__fgp .input {
+  height: auto;
+
+  color: #fff;
+
+  opacity: 0.5;
+  border: 1px solid #fff;
+  border-radius: 10px;
+
+  transition: opacity 0.5s ease;
+}
+
+.information__fgp .input:focus {
+  opacity: 1;
+}
+
+@media (max-width: 821px) {
+  .information__fgp .input {
+    height: 50px;
+  }
+
+  .information__fgp .button {
+    height: 50px;
+  }
+}
+
+@media (max-width: 621px) {
+  .information__fgp .fgp__form {
+    grid-template-columns: 300px;
+  }
+
+  .information__fgp .button {
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,24 @@
+.section-top__img {
+  position: absolute;
+  top: 0;
+  right: -220px;
+  width: 915px;
+}
+
+@media (max-width: 1221px) {
+  .section-top__img {
+    width: 850px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .section-top__img {
+    width: 680px;
+  }
+}
+
+@media (max-width: 621px) {
+  .section-top__img {
+    display: none;
+  }
+}

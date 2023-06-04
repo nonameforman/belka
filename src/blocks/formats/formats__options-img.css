@@ -1,0 +1,18 @@
+.formats__options-img {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1021px) {
+  .formats__options-img {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 821px) {
+  .formats__options-img {
+    height: 60px;
+
+    /* margin-bottom: 0; */
+  }
+}

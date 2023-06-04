@@ -1,0 +1,34 @@
+.information__title {
+  margin-bottom: 15px;
+
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 1221px) {
+  .information__title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .information__title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 821px) {
+  .information__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 621px) {
+  .information__title {
+    font-size: 22px;
+  }
+}

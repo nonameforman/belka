@@ -1,0 +1,9 @@
+.popup__description {
+  width: 366px;
+  margin-bottom: 68px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 149.2%;
+  text-align: center;
+}

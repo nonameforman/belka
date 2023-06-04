@@ -1,0 +1,34 @@
+.footer__container {
+  display: flex;
+  align-items: center;
+  margin-top: 117px;
+}
+
+@media (max-width: 1221px) {
+  .footer__container {
+    gap: 100px;
+    justify-content: flex-start;
+    max-width: 980px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .footer__container {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 821px) {
+  .footer__container {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 621px) {
+  .footer__container {
+    flex-direction: column-reverse;
+    gap: 30px;
+    margin-top: 30px;
+  }
+}

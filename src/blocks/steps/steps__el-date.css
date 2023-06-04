@@ -1,0 +1,31 @@
+.steps__el-date {
+  position: absolute;
+  bottom: 34px;
+
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 110%;
+  color: #a591b1;
+}
+
+@media (max-width: 1221px) {
+  .steps__el-date {
+    bottom: 25px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__el-date {
+    bottom: 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__el-date {
+    bottom: 30px;
+    font-size: 18px;
+  }
+}

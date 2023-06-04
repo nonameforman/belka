@@ -1,0 +1,10 @@
+.header__text-block {
+  display: block;
+  max-width: 187px;
+}
+
+@media (max-width: 621px) {
+  .header__text-block {
+    display: none;
+  }
+}

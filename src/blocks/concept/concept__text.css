@@ -1,0 +1,39 @@
+.concept__text {
+  display: block;
+
+  max-width: 565px;
+  margin-bottom: 25px;
+
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 130%;
+  color: #412816;
+}
+
+@media (max-width: 1221px) {
+  .concept__text {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .concept__text {
+    max-width: 400px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 821px) {
+  .concept__text {
+    max-width: 300px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 621px) {
+  .concept__text {
+    max-width: 100%;
+  }
+}

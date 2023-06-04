@@ -1,0 +1,25 @@
+.popup__left-block {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 52%;
+  height: 100%;
+
+  /* background-color: #a60c97; */
+  background-image: url("@images/popup/popup__bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+@media (max-width: 601px) {
+  .popup__left-block {
+    width: 100%;
+    background-image: none;
+  }
+
+  #popupLeave .popup__left-block {
+    display: none;
+  }
+}

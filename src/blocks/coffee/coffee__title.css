@@ -1,0 +1,34 @@
+.coffee__title {
+  margin-bottom: 50px;
+
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #412816;
+  text-align: center;
+}
+
+@media (max-width: 1221px) {
+  .coffee__title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .coffee__title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 821px) {
+  .coffee__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 621px) {
+  .coffee__title {
+    font-size: 22px;
+  }
+}

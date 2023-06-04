@@ -1,0 +1,21 @@
+.popup__text {
+  display: inline-block;
+
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #81895f;
+}
+
+@media (max-width: 950px) {
+  .popup__text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 601px) {
+  .popup__text {
+    font-size: 18px;
+  }
+}

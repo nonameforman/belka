@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/splide.min.css" />
+    <link rel="stylesheet" href="./style/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="./style.min.css" />
+    <title>Sweet Belka Coffee — Франшиза кофейни</title>
+  </head>
+  <body id="main-body">
+    @@include('./html/header.html',{ page: "index"})
+    <main>
+      @@include('./html/section-top.html')
+      @@include('./html/concept.html')
+      @@include('./html/questions.html')
+      @@include('./html/formats.html')
+      @@include('./html/steps.html')
+      @@include('./html/calculator.html')
+      @@include('./html/information.html')
+      @@include('./html/start.html')
+      @@include('./html/coffee.html')
+      @@include('./html/bottom-block.html')
+    </main>
+    @@include('./html/popup.html') 
+    @@include('./html/popup__policy.html')
+
+    <script src="./js/libraries/jquery.min.js"></script>
+    <script src="./js/libraries/ion.rangeSlider.min.js"></script>
+    <script src="./js/libraries/jquery.inputmask.min.js"></script>
+    <script src="./js/libraries/splide.min.js"></script>
+    <script src="./formprocessor.js"></script>
+    <script src="./js/popupData.js"></script>
+    <script src="./js/app.min.js"></script>
+
+    @@include('./html/standartscript.html')
+  </body>
+</html>

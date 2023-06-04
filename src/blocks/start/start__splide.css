@@ -1,0 +1,18 @@
+.start__track {
+  overflow: visible !important;
+}
+
+.start__splide .splide__pagination__page.is-active {
+  background: #885194;
+}
+
+.start__splide .splide__pagination {
+  bottom: -30px;
+}
+
+@media (max-width: 621px) {
+  .start__track {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,35 @@
+.title {
+  display: block;
+
+  font-size: 84px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 110%;
+  color: #fff;
+}
+
+@media (max-width: 1221px) {
+  .title {
+    font-size: 41px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .title {
+    font-size: 37px;
+  }
+}
+
+@media (max-width: 781px) {
+  .title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 601px) {
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+}

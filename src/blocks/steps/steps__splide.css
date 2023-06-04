@@ -1,0 +1,18 @@
+.steps__track {
+  overflow: visible !important;
+}
+
+.steps__splide .splide__pagination__page.is-active {
+  background: #ee8a46;
+}
+
+.steps__splide .splide__pagination {
+  bottom: -30px;
+}
+
+@media (max-width: 621px) {
+  .steps__track {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}

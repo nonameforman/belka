@@ -1,0 +1,13 @@
+.calculator__count-block {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+@media (max-width: 601px) {
+  .calculator__count-block {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+.header__wrap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 621px) {
+  .header__wrap {
+    flex-direction: column;
+  }
+}

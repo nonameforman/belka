@@ -1,0 +1,39 @@
+.formats__title {
+  max-width: 719px;
+  margin-bottom: 55px;
+
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+  color: #412816;
+  text-align: center;
+}
+
+@media (max-width: 1221px) {
+  .formats__title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .formats__title {
+    max-width: 650px;
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 821px) {
+  .formats__title {
+    max-width: 450px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 621px) {
+  .formats__title {
+    max-width: 300px;
+    font-size: 22px;
+  }
+}

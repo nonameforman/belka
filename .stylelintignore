@@ -1,0 +1,14 @@
+*.tsx
+*.jsx
+*.ts
+*.js
+*.md
+*.svg
+*.min.css
+*.html
+*.ico
+
+/node_modules
+/src/php
+/src/images
+/src/fonts

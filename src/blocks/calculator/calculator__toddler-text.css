@@ -1,0 +1,14 @@
+.calculator__toddler-text {
+  display: block;
+
+  margin-bottom: 7px;
+
+  font-family: Montserrat, sans-serifs;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 125%;
+  color: #101112;
+  text-align: right;
+  letter-spacing: -0.02em;
+}

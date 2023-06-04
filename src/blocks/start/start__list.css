@@ -1,0 +1,26 @@
+.start__list {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 4fr);
+  gap: 32px 530px;
+}
+
+@media (max-width: 1221px) {
+  .start__list {
+    gap: 32px 440px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .start__list {
+    gap: 16px 340px;
+  }
+}
+
+@media (max-width: 821px) {
+  .start__list {
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.priv-policy__text {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+@media (max-width: 600px) {
+  .priv-policy__text,
+  .priv-policy {
+    max-width: 270px;
+    font-size: 14px;
+  }
+}

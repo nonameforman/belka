@@ -1,0 +1,28 @@
+.section-top__el-bean {
+  position: absolute;
+  z-index: 5;
+  top: -11px;
+  left: -54px;
+
+  width: 97px;
+}
+
+@media (max-width: 1021px) {
+  .section-top__el-bean {
+    left: -24px;
+    width: 65px;
+  }
+}
+
+@media (max-width: 821px) {
+  .section-top__el-bean {
+    left: -21px;
+    width: 45px;
+  }
+}
+
+@media (max-width: 621px) {
+  .section-top__el-bean {
+    display: none;
+  }
+}

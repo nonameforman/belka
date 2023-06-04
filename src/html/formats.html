@@ -1,0 +1,97 @@
+<section class="formats">
+  <div class="container formats__container">
+    <h2 class="formats__title">
+      Вы можете открыть кофейню в одном из двух форматов
+    </h2>
+    <form class="formats__options">
+      <input
+        class="formats__options-input"
+        type="radio"
+        id="format-1b"
+        name="type"
+        value="Кофейня TO GO"
+      />
+      <label
+        for="format-1b"
+        data-value="Кофейня TO GO"
+        class="formats__options-item"
+      >
+        <img
+          class="formats__options-img"
+          alt=""
+          src="@images/formats/formats__options-img1.png"
+        />
+        <h3 class="formats__options-title">Кофейня TO GO</h3>
+        <span class="formats__options-caption">Площадь: от 15 м2</span>
+      </label>
+      <input
+        class="formats__options-input"
+        type="radio"
+        id="format-2b"
+        name="type"
+        value="Кофейня с посадкой"
+        checked
+      />
+      <label
+        for="format-2b"
+        class="formats__options-item"
+        data-value="Кофейня с посадкой"
+      >
+        <img
+          class="formats__options-img"
+          alt=""
+          src="@images/formats/formats__options-img2.png"
+        />
+        <h3 class="formats__options-title">Кофейня с посадкой</h3>
+        <span class="formats__options-caption">Площадь: от 75 м2</span>
+      </label>
+    </form>
+    <div class="fgp formats__fgp">
+      <form class="fgp__form">
+        <input
+          class="input input--format"
+          id="formatInp"
+          type="text"
+          name="format"
+          value="Кофейня с посадкой"
+          readonly
+        />
+        <input
+          class="input input--user"
+          type="text"
+          name="name"
+          placeholder="Имя"
+        />
+        <input
+          class="input input--phone"
+          type="tel"
+          name="phone"
+          placeholder="Телефон"
+        />
+
+        <!-- Тип формы  -->
+        <input type="text" name="section-name" value="Открытая" hidden />
+        <!-- Текст на кнопке в попапе  -->
+        <input type="text" name="form-btn-text" value="Получить" hidden />
+        <!-- Заголовок в секции  -->
+        <input
+          type="text"
+          name="section-name-text"
+          value="Вы можете открыть кофейню в одном из двух форматов"
+          hidden
+        />
+        <!-- Заголовок в попапе/форме  -->
+        <input
+          type="text"
+          name="form-name-text"
+          value="Вы можете открыть кофейню в одном из двух форматов"
+          hidden
+        />
+
+        <button class="button section-top__fgp-button" type="submit">
+          Получить
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

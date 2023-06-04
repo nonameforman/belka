@@ -1,0 +1,20 @@
+.fgp__policy-block {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.fgp__policy-block::before {
+  content: "";
+
+  display: block;
+  flex-shrink: 0;
+
+  aspect-ratio: 1;
+  width: 16px;
+
+  background-image: url("@images/icon/icon-checkbox.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}

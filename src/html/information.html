@@ -1,0 +1,50 @@
+<section class="information">
+  <div class="container information__container">
+    <img
+      src="@images/information/information__img.png"
+      alt="Круассан"
+      class="information__img"
+    />
+    <h2 class="information__title">Нужно больше данных?</h2>
+    <p class="information__caption">
+      Получите подробную финансовую модель франшизы
+    </p>
+    <div class="fgp information__fgp">
+      <form class="fgp__form">
+        <input
+          class="input input--user"
+          type="text"
+          name="name"
+          placeholder="Имя"
+        />
+        <input
+          class="input input--phone"
+          type="tel"
+          name="phone"
+          placeholder="Телефон"
+        />
+
+        <!-- Тип формы  -->
+        <input type="text" name="section-name" value="Открытая" hidden />
+        <!-- Текст на кнопке в попапе  -->
+        <input type="text" name="form-btn-text" value="Получить" hidden />
+        <!-- Заголовок в секции  -->
+        <input
+          type="text"
+          name="section-name-text"
+          value="Нужно больше данных?"
+          hidden
+        />
+        <!-- Заголовок в попапе/форме  -->
+        <input
+          type="text"
+          name="form-name-text"
+          value="Получите подробную финансовую модель франшизы"
+          hidden
+        />
+
+        <button class="button" type="submit">Получить</button>
+      </form>
+    </div>
+  </div>
+</section>

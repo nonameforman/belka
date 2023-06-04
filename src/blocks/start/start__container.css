@@ -1,0 +1,16 @@
+.start__container {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 821px) {
+  .start__container {
+    padding-bottom: 420px;
+  }
+}
+
+@media (max-width: 621px) {
+  .start__container {
+    padding-bottom: 420px;
+  }
+}

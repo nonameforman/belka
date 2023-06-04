@@ -1,0 +1,29 @@
+.calculator__block {
+  display: flex;
+  flex-direction: column;
+  max-width: 617px;
+}
+
+@media (max-width: 1221px) {
+  .calculator__block {
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .calculator__block {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 821px) {
+  .calculator__block {
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 621px) {
+  .calculator__block {
+    max-width: 300px;
+  }
+}

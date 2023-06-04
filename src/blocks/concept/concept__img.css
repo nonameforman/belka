@@ -1,0 +1,39 @@
+.concept__img {
+  width: 580px;
+}
+
+@media (max-width: 1221px) {
+  .concept__img {
+    position: absolute;
+    top: 185px;
+    right: 15px;
+
+    width: 440px;
+
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+@media (max-width: 1021px) {
+  .concept__img {
+    top: 165px;
+    width: 340px;
+  }
+}
+
+@media (max-width: 821px) {
+  .concept__img {
+    top: 157px;
+    width: 230px;
+  }
+}
+
+@media (max-width: 621px) {
+  .concept__img {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 300px;
+  }
+}

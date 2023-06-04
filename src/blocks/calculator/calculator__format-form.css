@@ -1,0 +1,22 @@
+.calculator__format-form {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-top: 20px;
+}
+
+.calculator__format-form .calculator__format-input {
+  display: none;
+}
+
+@media (max-width: 821px) {
+  .calculator__format-form {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 621px) {
+  .calculator__format-form {
+    flex-direction: column;
+  }
+}

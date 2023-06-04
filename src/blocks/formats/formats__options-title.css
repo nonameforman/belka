@@ -1,0 +1,23 @@
+.formats__options-title {
+  margin-bottom: 12px;
+
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 110%;
+  color: #412816;
+  text-align: center;
+}
+
+@media (max-width: 1021px) {
+  .formats__options-title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 821px) {
+  .formats__options-title {
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+}

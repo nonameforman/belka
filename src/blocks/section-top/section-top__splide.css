@@ -1,0 +1,11 @@
+.section-top__splide .splide__pagination {
+  top: -50px;
+}
+
+.section-top__splide .splide__pagination__page.is-active {
+  background: #ee8a46;
+}
+
+.section-top__track {
+  overflow: visible;
+}

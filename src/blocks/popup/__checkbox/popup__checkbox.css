@@ -1,0 +1,38 @@
+.fgp__checkbox {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+
+  margin-right: -10px;
+
+  font-family: Onest, serif;
+  font-size: 11px;
+  line-height: 130%;
+  color: rgb(82 76 73 / 56%);
+}
+
+.fgp__checkbox::before {
+  content: "";
+
+  flex-shrink: 0;
+
+  width: 13px;
+  height: 13px;
+
+  background-image: url("@images/input/icon_checkbox.svg");
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+@media (max-width: 601px) {
+  .fgp__checkbox {
+    gap: 6px;
+    margin-right: 0;
+    font-size: 11px;
+  }
+
+  .fgp__checkbox::before {
+    width: 14px;
+    height: 14px;
+  }
+}

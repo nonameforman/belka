@@ -1,0 +1,30 @@
+.conditions__format-title {
+  display: block;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.conditions__format-title .text--blue {
+  display: block;
+  align-items: center;
+}
+
+@media (max-width: 1021px) {
+  .conditions__format-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 601px) {
+  .conditions__format-title {
+    font-size: 16px;
+  }
+}

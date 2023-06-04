@@ -1,0 +1,28 @@
+.format__list {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 74px 100px;
+
+  background: rgb(255 255 255 / 50%);
+  border-radius: 30px;
+}
+
+@media (max-width: 1221px) {
+  .format__list {
+    gap: 20px;
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 781px) {
+  .format__list {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    padding: 10px;
+
+    border-radius: 20px;
+  }
+}

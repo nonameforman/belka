@@ -1,0 +1,9 @@
+.fgp__line {
+  display: block;
+
+  width: 2px;
+  height: 35px;
+  margin: 0 2px;
+
+  background-color: #b1b1b1;
+}

@@ -1,0 +1,22 @@
+.priv-policy__title {
+  width: 535px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 950px) {
+  .priv-policy__title {
+    width: 470px;
+  }
+}
+
+@media (max-width: 600px) {
+  .priv-policy__title {
+    width: 100%;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,25 @@
+.bottom-block__img {
+  position: absolute;
+  top: -65px;
+  right: -310px;
+}
+
+@media (max-width: 1221px) {
+  .bottom-block__img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .bottom-block__img {
+    top: -40px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 821px) {
+  .bottom-block__img {
+    right: -250px;
+    width: 400px;
+  }
+}

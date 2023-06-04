@@ -1,0 +1,11 @@
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 218px;
+}
+
+@media (max-width: 1221px) {
+  .footer-logo {
+    margin-right: 0;
+  }
+}

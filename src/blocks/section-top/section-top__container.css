@@ -1,0 +1,29 @@
+.section-top__container {
+  padding-top: 236px;
+  padding-bottom: 0 !important;
+}
+
+@media (max-width: 1221px) {
+  .section-top__container {
+    padding-bottom: 95px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .section-top__container {
+    max-width: 780px;
+    padding: 200px 20px 50px;
+  }
+}
+
+@media (max-width: 821px) {
+  .section-top__container {
+    padding-top: 150px !important;
+  }
+}
+
+@media (max-width: 621px) {
+  .section-top__container {
+    padding-bottom: 10px;
+  }
+}

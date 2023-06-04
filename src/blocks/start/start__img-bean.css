@@ -1,0 +1,33 @@
+.start__img-bean {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(65%, 135%);
+}
+
+@media (max-width: 1221px) {
+  .start__img-bean {
+    transform: translate(65%, 165%);
+    width: 200px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .start__img-bean {
+    transform: translate(65%, 195%);
+    width: 140px;
+  }
+}
+
+@media (max-width: 821px) {
+  .start__img-bean {
+    transform: translate(65%, 310%);
+    width: 100px;
+  }
+}
+
+@media (max-width: 821px) {
+  .start__img-bean {
+    transform: translate(65%, 330%);
+  }
+}

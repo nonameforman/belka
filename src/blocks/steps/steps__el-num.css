@@ -1,0 +1,25 @@
+.steps__el-num {
+  font-size: 60px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 110%;
+  color: #885194;
+}
+
+@media (max-width: 1221px) {
+  .steps__el-num {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__el-num {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__el-num {
+    font-size: 54px;
+  }
+}

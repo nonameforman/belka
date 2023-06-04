@@ -1,0 +1,65 @@
+<section class="calculator">
+  <img
+    class="calculator__img"
+    alt="Кофе с молоком"
+    src="@images/calculator/calculator__img.png"
+  />
+  <div class="container calculator__container">
+    <h2 class="calculator__title">
+      Узнайте, сколько будет зарабатывать ваша кофейня Sweet Belka Coffee
+    </h2>
+    <div class="calculator__block-content">
+      <div class="calculator__format">
+        <span class="calculator__format-title">Выберите формат</span>
+        <form class="calculator__format-form">
+          <input
+            class="calculator__format-input"
+            type="radio"
+            id="format-1"
+            name="type-mini"
+            value="1"
+            checked
+          />
+          <label
+            for="format-1"
+            data-type="1"
+            class="calculator__format-form-item"
+          >
+            <span class="calculator__format-name">Кофейня TO GO</span>
+          </label>
+          <input
+            class="calculator__format-input"
+            type="radio"
+            id="format-2"
+            name="type-mini"
+            value="2"
+          />
+          <label
+            for="format-2"
+            data-type="2"
+            class="calculator__format-form-item"
+          >
+            <span class="calculator__format-name">Кофейня с посадкой</span>
+          </label>
+        </form>
+      </div>
+      <div class="calculator__block">
+        <span class="calculator__block-title">
+          Перетащите бегунок и узнайте, <br />
+          какой будет прибыль в течение первого года
+        </span>
+        <div class="calculator__toddler-block">
+          <input
+            class="calculator__toddler"
+            name="time"
+            value=""
+            id="calculator-time"
+          />
+        </div>
+        <div class="calculator__res-block">
+          <span class="calculator__res" id="calculatorRes">100</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

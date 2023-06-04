@@ -1,0 +1,10 @@
+.coffee__container {
+  padding-top: 100px;
+  padding-bottom: 136px;
+}
+
+@media (max-width: 621px) {
+  .coffee__container {
+    padding-bottom: 40px;
+  }
+}

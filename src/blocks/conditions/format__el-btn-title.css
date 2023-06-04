@@ -1,0 +1,14 @@
+.format__el-btn-title {
+  margin-bottom: 13px;
+
+  font-size: 12px;
+  line-height: 120%;
+  color: #181818;
+  text-align: center;
+}
+
+@media (max-width: 601px) {
+  .format__el-btn-title {
+    font-size: 10px;
+  }
+}

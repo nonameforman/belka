@@ -1,0 +1,32 @@
+.information__img {
+  position: absolute;
+  top: -55px;
+  left: -115px;
+}
+
+@media (max-width: 1221px) {
+  .information__img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .information__img {
+    top: -35px;
+    width: 330px;
+  }
+}
+
+@media (max-width: 821px) {
+  .information__img {
+    top: -25px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 621px) {
+  .information__img {
+    left: -250px;
+    width: 400px;
+  }
+}

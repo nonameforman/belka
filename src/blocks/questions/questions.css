@@ -1,0 +1,6 @@
+.questions {
+  background-image: url("@images/questions/questions__bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+}

@@ -1,0 +1,8 @@
+.questions__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 99px;
+  padding-bottom: 148px;
+}

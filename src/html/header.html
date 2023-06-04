@@ -1,0 +1,36 @@
+<header id="header" class="header @@page__header">
+  <div class="container header__container">
+    <div class="header__wrap">
+      <div class="logo header__logo">
+        @@if(page === "index"){
+        <a href="#" class="header__logo-link">
+          <img
+            src="@images/logo/logo.svg"
+            class="header__logo-link"
+            alt="Логотип кофейни"
+          />
+        </a>
+
+        } @@if(page === "thanks"){
+        <a href="../index.html" class="header__logo-link">
+          <img
+            src="@images/logo/logo.svg"
+            class="header__logo-link"
+            alt="Логотип кофейни"
+          />
+        </a>
+        }
+      </div>
+      <div class="header__text-block">
+        <h2 class="header__title">Sweet Belka Coffee</h2>
+        <span class="header__text">Франшиза кофейни</span>
+      </div>
+    </div>
+    <div class="order-call">
+      <a href="tel:88005553535" class="order-call__tel">8 800 555 35 35</a>
+      <button class="order-call__button" id="headerBtn" type="submit">
+        Заказать звонок
+      </button>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,21 @@
+body {
+  position: relative;
+
+  overflow: clip;
+
+  min-height: 100%;
+
+  font-family: Museo, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 110%;
+  color: #412816;
+
+  background: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}

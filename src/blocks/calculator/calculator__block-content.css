@@ -1,0 +1,23 @@
+.calculator__block-content {
+  display: flex;
+  gap: 135px;
+}
+
+@media (max-width: 1221px) {
+  .calculator__block-content {
+    gap: 70px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .calculator__block-content {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 821px) {
+  .calculator__block-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.conditions__list {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 145px;
+}
+
+.conditions__slider {
+  display: none;
+}
+
+@media (max-width: 781px) {
+  .conditions__list:not(.splide__list) {
+    display: none;
+  }
+
+  .conditions__slider {
+    display: block;
+    margin-bottom: 40px;
+  }
+}

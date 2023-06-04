@@ -1,0 +1,6 @@
+.input_field {
+  padding-left: 72px;
+  background-image: url("@images/input/icon_field.svg");
+  background-repeat: no-repeat;
+  background-position: 46px center;
+}

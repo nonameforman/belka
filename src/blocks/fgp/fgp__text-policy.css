@@ -1,0 +1,23 @@
+.fgp__text-policy {
+  display: block;
+
+  margin-right: -42px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 120%;
+  color: #303030;
+}
+
+.fpg__button-policy {
+  color: #6b7dff;
+  text-decoration-line: underline;
+}
+
+@media (max-width: 601px) {
+  .fgp__text-policy {
+    font-size: 9px;
+  }
+}

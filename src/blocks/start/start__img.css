@@ -1,0 +1,38 @@
+.start__img {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -42%);
+}
+
+@media (max-width: 1221px) {
+  .start__img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1221px) {
+  .start__img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .start__img {
+    width: 320px;
+  }
+}
+
+@media (max-width: 821px) {
+  .start__img {
+    top: 63%;
+    width: 230px;
+  }
+}
+
+@media (max-width: 621px) {
+  .start__img {
+    top: 65%;
+  }
+}

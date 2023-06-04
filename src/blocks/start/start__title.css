@@ -1,0 +1,36 @@
+.start__title {
+  margin-bottom: 56px;
+
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+  color: #412816;
+  text-align: center;
+}
+
+@media (max-width: 1221px) {
+  .start__title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .start__title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 821px) {
+  .start__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 621px) {
+  .start__title {
+    max-width: 300px;
+    font-size: 22px;
+  }
+}

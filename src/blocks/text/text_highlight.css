@@ -1,0 +1,22 @@
+.text_highlight {
+  position: relative;
+  z-index: 2;
+  font-weight: 600;
+  color: #fff;
+}
+
+.text_highlight span {
+  position: relative;
+  z-index: 2;
+}
+
+.text_highlight::before {
+  content: "";
+
+  position: absolute;
+  z-index: 1;
+  inset: -2px -3px -2px -5px;
+
+  background: #1c95bc;
+  border-radius: 4px;
+}

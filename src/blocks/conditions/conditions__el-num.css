@@ -1,0 +1,39 @@
+.conditions__el-num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  aspect-ratio: 1;
+  width: 64px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #fff;
+
+  background: linear-gradient(
+    7.94deg,
+    #99c5fd -26.33%,
+    #bbe7ff 33.13%,
+    #93c2ff 79.38%
+  );
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 601px) {
+  .conditions__el-num {
+    aspect-ratio: 1;
+    width: 45px;
+    height: 45px;
+
+    font-size: 34px;
+
+    border: 2px solid #fff;
+  }
+}

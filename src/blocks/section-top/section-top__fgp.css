@@ -1,0 +1,51 @@
+.section-top__fgp {
+  width: 100%;
+  max-width: 612px;
+}
+
+.section-top__fgp .fgp__title {
+  max-width: 599px;
+  font-size: 14px;
+}
+
+.section-top__fgp .button {
+  max-width: 200px;
+}
+
+.section-top__fgp .input {
+  transition: border 0.5s ease;
+}
+
+.section-top__fgp .input:focus {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 821px) {
+  .section-top__fgp .input {
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .section-top__fgp .button {
+    height: 50px;
+  }
+}
+
+@media (max-width: 621px) {
+  .section-top__fgp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-top__fgp .input {
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .section-top__fgp .button {
+    max-width: 300px;
+    height: 50px;
+  }
+}

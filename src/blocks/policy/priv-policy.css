@@ -1,0 +1,17 @@
+.priv-policy {
+  position: relative;
+
+  max-width: 800px;
+  margin: 0 auto;
+
+  font-size: 16px;
+  color: #412816;
+
+  background: #fff;
+}
+
+@media (max-width: 950px) {
+  .priv-policy {
+    max-width: 450px;
+  }
+}

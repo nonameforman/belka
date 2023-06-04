@@ -1,0 +1,34 @@
+.section-top__list {
+  position: relative;
+  top: 113.5px;
+
+  display: flex !important;
+  gap: 30px;
+
+  margin: 0 auto;
+}
+
+@media (max-width: 1221px) {
+  .section-top__list {
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1021px) {
+  .section-top__list {
+    top: 67px;
+  }
+}
+
+@media (max-width: 821px) {
+  .section-top__list {
+    top: 47px;
+  }
+}
+
+@media (max-width: 621px) {
+  .section-top__list {
+    top: 65px;
+  }
+}

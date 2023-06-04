@@ -1,0 +1,13 @@
+.calculator__format-name {
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  color: #412816;
+}
+
+@media (max-width: 1021px) {
+  .calculator__format-name {
+    font-size: 22px;
+  }
+}

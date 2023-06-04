@@ -1,0 +1,28 @@
+.input_error {
+  color: #dd3a3ac0 !important;
+  border-bottom: 1px solid #dd3a3ac0;
+  animation: error 0.25s linear;
+  animation-iteration-count: 2;
+}
+
+.input_error::placeholder {
+  color: #dd3a3ac0 !important;
+}
+
+@keyframes error {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

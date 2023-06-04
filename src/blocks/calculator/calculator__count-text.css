@@ -1,0 +1,9 @@
+.calculator__count-text {
+  color: #4090f7;
+}
+
+.calculator__count-input:checked
+  + .calculator__count-label
+  .calculator__count-text {
+  color: #171717;
+}

@@ -1,0 +1,31 @@
+.steps__el-title {
+  margin-bottom: 13px;
+
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 110%;
+  color: #412816;
+}
+
+.steps__el-title_8 {
+  color: #fff;
+}
+
+@media (max-width: 1221px) {
+  .steps__el-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1021px) {
+  .steps__el-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 821px) {
+  .steps__el-title {
+    font-size: 26px;
+  }
+}

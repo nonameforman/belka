@@ -1,0 +1,34 @@
+.rate__fgp .fgp__form {
+  flex-direction: column;
+}
+
+founder__title-line {
+  height: 40px;
+  background: #fff;
+  border: 1px solid #c3c3c3;
+  border-radius: 50px;
+
+  /* color: #303030; */
+}
+
+.rate__fgp .button {
+  height: 40px;
+
+  font-family: Ubuntu, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 14px;
+  text-transform: none;
+
+  background: radial-gradient(
+      92.49% 795.17% at 7.51% 0%,
+      #ff795c 0%,
+      #ffa18d 56.25%,
+      #ff795c 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  box-shadow: 0 5px 9px rgb(230 132 18 / 35%);
+}

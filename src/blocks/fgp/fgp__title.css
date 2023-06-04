@@ -1,0 +1,17 @@
+.fgp__title {
+  display: block;
+
+  margin-bottom: 21px;
+
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 130%;
+  color: #afa6a1;
+}
+
+/* @media (max-width: 601px) {
+  .fgp__title {
+    font-size: 15px;
+  }
+} */

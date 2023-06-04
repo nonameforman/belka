@@ -1,0 +1,9 @@
+.logo {
+  flex-shrink: 0;
+}
+
+/* @media (max-width: 601px) {
+  .logo {
+    width: 170px;
+  }
+} */
