@@ -107,7 +107,9 @@
 @import url("../blocks/coffee/coffee.css");
 @import url("../blocks/coffee/coffee__container.css");
 @import url("../blocks/coffee/coffee__title.css");
-@import url("../blocks/coffee/coffee__splide.css");
+
+/* @import url("../blocks/coffee/coffee__splide.css"); временно так */
+@import url("../blocks/coffee/coffee__swiper.css");
 
 @import url("../blocks/bottom-block/bottom-block.css");
 @import url("../blocks/bottom-block/bottom-block__container.css");

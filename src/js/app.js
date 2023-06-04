@@ -19,20 +19,28 @@ if ($("#main-body").length > 0) {
 
     $(".input--phone").inputmask("+7 (999) 999-99-99");
 
-    let sliderCoffee = new Splide(".coffee__splide", {
-      classes: {
-        arrow: "splide__arrow coffee__arrow",
-        arrows: "splide__arrows coffee__arrows",
+    const swiperCoffee = new Swiper(".coffee__swiper", {
+      loop: true,
+      direction: "horizontal",
+      spaceBetween: 10,
+      slidesPerView: 1,
+      loopedSlides: 2,
+      centeredSlides: true,
+      initialSlide: 2,
+      speed: 400,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
-      type: "loop",
-      focus: "center",
-      perPage: 1,
-      fixedWidth: 370,
-      gap: 30,
-      pagination: false,
-      start: 2,
-      updateOnMove: true,
-      speed: 1000,
+      breakpoints: {
+        622: {
+          slidesPerView: 3,
+        },
+        822: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
     });
 
     let sliderSectionTop = new Splide(".section-top__splide", {
@@ -89,7 +97,7 @@ if ($("#main-body").length > 0) {
       },
     });
 
-    sliderCoffee.mount();
+    // sliderCoffee.mount(); временно так
     sliderSectionTop.mount();
     sliderSteps.mount();
     sliderStart.mount();

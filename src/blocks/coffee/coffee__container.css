@@ -5,6 +5,7 @@
 
 @media (max-width: 621px) {
   .coffee__container {
+    max-width: 260px;
     padding-bottom: 40px;
   }
 }
